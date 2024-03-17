@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*The box-sizing CSS property sets how the total width and height of an element is calculated.2 types : content-box and border-box */
+    box-sizing: border-box ;  
+    font-family: 'Gilroy'
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    padding: 0px 30px ;
+}
+#navpart1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+
+}
+#nav h3{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1.5px solid #000;
+    padding: 6px;
+    border-radius: 50px;
+}
+#nav i {
+    font-size: 16px;
+    font-weight:500 ;
+    border: 1.5px solid #000;
+    padding: 6px;
+    border-radius: 50px;
+}
+#nav h1 {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+#nav button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    background-color:white;
+    
+}
+#nav #btn2{
+    color: white;
+    background-color: orangered;
+    border: none;
+   
+}
+#main #body1 h1{ 
+   font-size: 180px;
+   text-transform: capitalize;
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  width: 100%; 
+  text-align: center; 
+}
+#main #body1 img{
+ height: 500px;
+ width: 420px;
+ position:absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ object-fit: cover;
+ object-position: top;
+ border-radius: 20px;
+ 
+}
+#main #body1 #image4{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#main #body1 #image3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#main #body1 #image2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#main #body #btnleft{
+    font-size: 17px;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+   
+}
+
+#main #body #btnright{
+    font-size: 17px;
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+   
+}
+#main #body #btnrightrow{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+   
+}
+
+#main #body1 #semicircle {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+  
+  
+    border: 1.5px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main #body1 #semicircle i {
+    font-size: 30px;
+    font-weight: 100;
+    
+    
+  
+}
+
